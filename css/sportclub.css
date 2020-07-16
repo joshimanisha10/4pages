@@ -1,0 +1,178 @@
+
+
+.ground p{
+    padding: 0px 10px ;
+   
+   }
+
+ /* On screens that are 2250px wide or less, the background color is blue */
+@media screen and (max-width: 2250px) {
+    .ground{
+      border-radius: 0px;
+      border: none;
+      -webkit-box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
+   
+    
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      z-index: 1;
+      margin-top:80px ;
+      background-color: #fff;
+      margin-left: 30px;
+      margin-bottom: 20px;
+      width: 280px;
+  
+     
+    }
+    .ground p{
+      padding: 0px 10px ;
+      font-size: 20px;
+      margin: 10px; 
+  
+     
+     }
+  
+     .ground h3{
+      padding: 0px 5px ;
+      font-size: 25px;
+     
+     }
+  }
+  
+  
+
+  /* On screens that are  1440px wide or less, the background color is blue */
+@media screen and (max-width: 1440px) {
+     .ground{
+       border-radius: 0px;
+       border: none;
+       -webkit-box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
+       box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
+    
+     
+       position: absolute;
+       left: 0px;
+       top: 0px;
+       z-index: 1;
+       margin-top:100px ;
+       background-color: #fff;
+       margin-left: 100px;
+       margin-bottom: 20px;
+       width: 320px;
+   
+      
+     }
+     .ground p{
+       padding: 0px 10px ;
+       font-size: 18px;
+       margin: 15px; 
+   
+      
+      }
+   
+      .ground h3{
+       padding: 0px 5px ;
+       font-size: 20px;
+      
+      }
+   }
+   /* On screens that are  1110px wide or less, the background color is blue */
+@media screen and (max-width: 1110px)  {
+     .ground{
+       border-radius: 0px;
+       border: none;
+       -webkit-box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
+       box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
+    
+     
+       position: absolute;
+       left: 0px;
+       top: 0px;
+       z-index: 1;
+       margin-top:80px ;
+       background-color: #fff;
+       margin-left: 30px;
+       margin-bottom: 20px;
+       width: 280px;
+   
+      
+     }
+     .ground p{
+       padding: 0px 10px ;
+       font-size: 15px;
+       margin: 0px; 
+   
+      
+      }
+   
+      .ground h3{
+       padding: 0px 5px ;
+       font-size: 15px;
+      
+      }
+   }
+   
+   
+   /* On screens that are  992px wide or less, the background color is blue */
+   @media screen and (max-width: 992px) {
+     .ground{
+       border-radius: 0px;
+       border: none;
+       -webkit-box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
+       box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
+    
+     
+       position: absolute;
+       left: 0px;
+       top: 0px;
+       z-index: 1;
+       margin-top:20px ;
+       background-color: #fff;
+       margin-left: 30px;
+       margin-bottom: 20px;
+       width: 280px;
+   
+      
+     }
+     .ground p{
+       padding: 0px 10px ;
+       font-size: 15px;
+       margin: 0px; 
+   
+      
+      }
+   
+      .ground h3{
+       padding: 0px 5px ;
+       font-size: 15px;
+      
+      }
+   }
+   
+   
+   
+   
+   
+    /* On screens that are  700px wide or less, the background color is blue */
+@media screen and (max-width: 700px) {
+     .ground{
+       border-radius: 0px;
+       border: none;
+       -webkit-box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
+       box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
+       background-color: #fff;
+       position: static;
+       left: 0px;
+       top: 0px;
+       z-index: 0;
+     
+       background-color: #fff;
+       margin-left: 0px;
+       margin-bottom: 20px;
+       width: 280px;
+   
+     }
+   }
+   
