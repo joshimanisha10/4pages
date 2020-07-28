@@ -131,12 +131,19 @@ function videoStop($wrapper) {
 									<a class="dropdown-item" href="category.html">Ad-Gird View</a>
 									<a class="dropdown-item" href="ad-listing-list.html">Ad-List View</a>
 								</div>
+              </li>
+              <li class="nav-item">
+								<img src="images/live.gif" alt="" width="65px">
 							</li>
+
+
 						</ul>
 						<ul class="navbar-nav ml-auto mt-10">
+             
 							<li class="nav-item">
 								<a class="nav-link login-button" href="login.html">Login</a>
-							</li>
+              </li>
+             
 							<li class="nav-item">
 								<a class="nav-link text-white add-button" href="ad-listing.html"><i class="fa fa-plus-circle"></i> Add Listing</a>
 							</li>
@@ -145,22 +152,33 @@ function videoStop($wrapper) {
 				</nav>
 			</div>
 		</div>
-	</div>
+  </div>
+  
+  <section class="page-title">
+    <!-- Container Start -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 text-center">
+          <!-- Title text -->
+          <h3>Play Video</h3>
+        </div>
+      </div>
+    </div>
+    <!-- Container End -->
+  </section>
 </section>
 
 
-<main>
+<main class="my-4">
 
-    <h1 style="text-align: center;">Play Video</h1>
-   <p  style="text-align: center;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit necessitatibus dignissimos architecto.</p>
-    <!-- the class "videoWrapper169" means a 16:9 aspect ration video. Another option is "videoWrapper43" for 4:3. -->
-    <div class="videoWrapper videoWrapper169 js-videoWrapper" style="text-align: center;">
-      <!-- YouTube iframe. -->
-      <!-- note the iframe src is empty by default, the url is in the data-src="" argument -->
-      <!-- also note the arguments on the url, to autoplay video, remove youtube adverts/dodgy links to other videos, and set the interface language -->
-      <iframe class="videoIframe js-videoIframe" width="560" height="315" src="https://www.youtube.com/embed/7D99aDfIguk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <!-- the poster frame - in the form of a button to make it keyboard accessible -->
+  
+   
+    <div style="text-align: center;">
      
+      <iframe width="760" height="415" src="https://www.youtube.com/embed/7D99aDfIguk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+      <p  style="text-align: center;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit necessitatibus dignissimos architecto.</p>
+
     </div>
     
    
